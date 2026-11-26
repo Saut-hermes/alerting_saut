@@ -1,4 +1,4 @@
- name: Watch Saut Hermes Billetterie
+name: Watch Saut Hermes Billetterie
 
 on:
   schedule:
