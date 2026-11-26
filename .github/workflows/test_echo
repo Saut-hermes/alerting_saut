@@ -1,0 +1,12 @@
+name: test echo
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check-page:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo test
+        run: echo hello
